@@ -1,8 +1,5 @@
 package bjfu.em.se.oop.d05polymorphism2;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
-
 public class Employee {
 	private String name;
 	private double salary;

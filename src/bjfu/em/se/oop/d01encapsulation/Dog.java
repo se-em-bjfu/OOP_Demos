@@ -37,4 +37,7 @@ public class Dog {
 		return name;
 	}
 	
+	public void call() {
+		System.out.println("ÍôÍô!");
+	}
 }

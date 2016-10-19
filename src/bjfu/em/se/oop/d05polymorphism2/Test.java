@@ -1,7 +1,5 @@
 package bjfu.em.se.oop.d05polymorphism2;
 
-import java.util.Arrays;
-
 public class Test {
 
 	public static void main(String[] args) {

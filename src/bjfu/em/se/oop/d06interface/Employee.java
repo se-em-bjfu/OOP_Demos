@@ -1,9 +1,6 @@
 package bjfu.em.se.oop.d06interface;
 
-import java.util.Date;
-import java.util.GregorianCalendar;
-
-public class Employee implements Comparable {
+public class Employee implements Comparable<Employee> {
 	private String name;
 	private double salary;
 
@@ -30,12 +27,8 @@ public class Employee implements Comparable {
 	}
 
 	@Override
-	public int compareTo(Object arg0) {
-		if (!(arg0 instanceof Employee)) {
-			throw new RuntimeException("不是一个Employee对象！");
-		}
-		Employee obj=(Employee)arg0;
-		return -Double.compare(this.getSalary(),obj.getSalary());
+	public int compareTo(Employee e) {
+		return -Double.compare(this.getSalary(),e.getSalary());
 	}
 
 
