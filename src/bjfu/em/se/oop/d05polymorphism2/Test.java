@@ -12,9 +12,10 @@ public class Test {
 		staff[1] = new Employee("Harry Hacker", 50000);
 		staff[2] = new Employee("Tommy Tester", 40000);
 
-		for (Employee e : staff)
+		for (int i=0;i<staff.length;i++) {
+			Employee e=staff[i];
 			System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
-
+		}
 	}
 
 }

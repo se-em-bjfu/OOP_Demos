@@ -5,8 +5,18 @@ public class Test {
 	public static void main(String[] args) {
 		Dog dog=new Dog("Íú²Æ");
 		dog.run();
-		dog.cry();		
-		dance(dog);		
+		dog.cry();	
+
+		
+		System.out.println("--------------");
+		dance(dog);	
+		
+		System.out.println("--------------");		
+	    Animal ani=new Dog("Íú²Æ2");
+	    ani.run();
+	    ani.cry();
+	    
+
 
 	}
 	

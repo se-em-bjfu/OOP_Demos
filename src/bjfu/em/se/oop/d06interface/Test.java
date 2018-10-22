@@ -21,13 +21,13 @@ public class Test {
 		System.out.println("∞¥–Ω≥Í≈≈–Ú:");
 		for (Employee e : staff)
 			System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
-		
+		/*
 		AgeComparator ageComparator=new AgeComparator();
 		Arrays.sort(staff,ageComparator);
 		System.out.println("∞¥–’√˚≈≈–Ú:");
 		for (Employee e : staff)
 			System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
-		
+		*/
 	}
 
 }

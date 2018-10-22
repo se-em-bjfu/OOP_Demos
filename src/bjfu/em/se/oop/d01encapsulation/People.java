@@ -6,13 +6,13 @@ public class People {
 		moveRightFoot();
 	}
 
-	private void moveRightFoot() {
-		System.out.println("Âõ×ó½Å");
+	public void moveRightFoot() {
+		System.out.println("ÂõÓÒ½Å");
 		
 	}
 
 	private void moveLeftFoot() {
-		System.out.println("ÂõÓÒ½Å");
+		System.out.println("Âõ×ó½Å");
 	}
 
 }

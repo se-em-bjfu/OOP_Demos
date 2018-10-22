@@ -7,9 +7,16 @@ public class Test {
 		dog.run();
 		dog.cry();
 		
+
+		
 		Cat cat=new Cat("люд╥");
 		cat.run();
 		cat.cry();
+		
+		Animal ani;
+		ani=cat;
+		System.out.print("animal cry:");
+		ani.cry();
 	}
 
 }
