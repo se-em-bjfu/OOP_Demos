@@ -1,4 +1,4 @@
-package bjfu.em.se.oop.d06interface;
+package bjfu.em.se.oop.d07interface;
 
 import java.util.Comparator;
 

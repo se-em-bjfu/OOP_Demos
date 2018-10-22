@@ -1,4 +1,4 @@
-package bjfu.em.se.oop.d06interface;
+package bjfu.em.se.oop.d07interface;
 
 public class Employee implements Comparable<Employee> {
 	private String name;

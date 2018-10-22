@@ -7,8 +7,7 @@ public class People {
 	}
 
 	public void moveRightFoot() {
-		System.out.println("ÂõÓÒ½Å");
-		
+		System.out.println("ÂõÓÒ½Å");		
 	}
 
 	private void moveLeftFoot() {
